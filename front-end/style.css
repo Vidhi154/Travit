@@ -222,7 +222,17 @@ margin:50px auto
     color: #615d61;
     cursor: pointer;
 }
-
+.face{
+    background-color: rgb(42, 42, 193);
+}
+.goo{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.orr{
+    text-align: center;
+}
 
 
 
@@ -274,6 +284,7 @@ margin:50px auto
     color:#000;
     font-weight: bold;
   }
+ 
   .word {
     margin: auto;
     color: white;
@@ -346,3 +357,6 @@ footer {
     /* display: inline-flex;
     justify-content: center;
     align-items: center; */
+
+  
+
