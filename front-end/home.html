@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tvarit</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
     *{
@@ -107,11 +108,130 @@
 
     /* scond part */
 
+    .first{
+        background-color: lightgray;
+    }
+
     .conn{
         display: grid;
-        grid-template-rows: 1fr 2fr 1fr ;
+        grid-template-rows:  1fr 1fr ;
         grid-template-columns: 2fr 1fr;
+        height: 100vh;
     }
+    .g1{
+        background-color: rgb(146, 186, 212);
+        /* grid-row:span 2; */
+        margin-bottom: 65px;
+    }
+    .g2{
+        margin-top: 3px;
+        margin-right: 3px;
+        border: 2px solid rgb(72, 46, 46);
+        border-radius: 8px;
+    }
+
+    .conn div{
+        /* border : 1px solid black; */
+        background-color: lightgray;
+    }
+    .footer{
+        background-color: black;
+        /* text-align: center; */
+        height: 40px;
+        display: flex;
+        justify-content: baseline;
+    }
+    .copy{
+        color:white;
+        font-size: medium;
+    }
+    .toget{
+        font-size: larger;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .g1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: lightgray;
+
+        }
+        iframe{
+            border-radius: 8px;
+        }
+
+        .sm{
+            border: 1px solid rgb(198, 82, 82);
+            height: 100px;
+            width: 300px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .g5{
+        color: black;
+        font-size: large;
+        font-weight: 300;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .f0{
+        color: brown;
+        font-weight: bold;
+        align-self: self-start;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #sos{
+            align-items: center;
+            /* justify-content: center; */
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+}
+.emer{
+    text-align: center;
+    color: black;;
+}
+#hel{
+    /* text-align: center; */
+    /* margin-left: 40%; */
+    justify-content: center;
+    color: black;
+    /* align-self: first baseline; */
+    
+}
+.g4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qo{
+    border-radius: 5px;
+    /* margin-right: 50px; */
+    height: 400px;
+    background-color: black;
+    width: 600px;
+    /* border: 1px solid black; */
+    
+    /* bacheight: 300px; */
+    animation: mymove 10s;
+    animation-delay:5s ;
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: none; */
+    /* -webkit-animation-timing-function:none; */
+    
+}
+
 
     
 
@@ -128,10 +248,10 @@
                     <p>Home</p>
                 </div>
                 <div class="resources bo">
-                    <a href="#">Resources</a>
+                    <a href="resources.html">Resources</a>
                 </div>
                 <div class="fe bo">
-                    <a href="#">Features</a>
+                    <a href="guidelines.html">Guidelines</a>
                 </div>
                 <div class="login bo">
                     <a href="login.html">Login</a>
@@ -146,16 +266,50 @@
             </div>
 
             <div class="conn">
-                <div class="g1"></div>
-                <div class="g2"></div>
-                <div class="g3"></div>
-                <div class="g4"></div>
-                <div class="g5"></div>
+                <div class="g4">
 
+                    <div style="color: black; display: inline; width: 100%;">
+                        <h1 >TOGETHER LET'S MAKE RESILIENCE A REALITY WITH TRAVIT.</h1>
+                    </div>
 
+                    
+                      
+                     
+                       
+                </div>
+                <div class="g2">
+                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.0393821121247!2d86.64879207470806!3d20.78969459594777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1b93f720ca51f3%3A0xee129d8b6880a598!2sCyclone%20center!5e0!3m2!1sen!2sin!4v1712428422707!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+                <!-- <div class="g3"></div> -->
+                <div class="g1">
+                    <h1 id="hel">   NEED HELP ??</h1>
+                    <div class="sm1 sm">
+                        <button id="sos">SOS</button>
+                        <p class="emer">emergency</p>
+                    </div>
+                   
+                    <div class="sm3 sm">
+                        <button id="sos">request/check</button>
+                        <p class="emer">click here for emergency</p>
+                    </div>
+                    <!-- According to the National Flood Commission, <span class="f0">40 million hectares of land in India are affected by floods, and an average of 18.6 million hectares are affected annually</span> -->
+                </div>
+                <div class="g5" style="padding: 10px; padding-top: 30px;">
+                    According to the Annual Statement on Climate of India-2022 issued by the Indian Meterological Department, <span class="f0">India recorded human casualities due to extreme weather events in 2022. The Met data showed the death toll stood at 1,750 in 2021 and 1,338 in 2020.</span>
+                    <!-- <p class="toget">Toge,ther,Let's make resilience a reality with Tvarit.</p> -->
+                </div>
+ 
+
+            </div>
+            <div class="footer">
+                <div class="copy">
+                    <p>copywrite &copy</p>
+
+                </div>
             </div>
         </div>
     </div>
-    
+    <!-- <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.0393821121247!2d86.64879207470806!3d20.78969459594777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1b93f720ca51f3%3A0xee129d8b6880a598!2sCyclone%20center!5e0!3m2!1sen!2sin!4v1712428422707!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> -->
+    <script src="/script.js"></script>
 </body>
 </html>

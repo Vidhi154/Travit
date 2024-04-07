@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer and Donate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body, html {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                font-family:sans-serif; 
+                background: -webkit-linear-gradient(to right, #155799, #159957);  
+                background: linear-gradient(to right, #155799, #159957);
+                color: #333;
+            }
+            
+            .container {
+                max-width: 620px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            
+            header {
+                text-align: center;
+                padding: 40px 20px;
+                background-color: #007bff;
+                color: white;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            
+            header h1 {
+                margin: 0;
+                font-weight: 700;
+            }
+            
+            header p {
+                font-weight: 400;
+            }
+            
+            section {
+                background-color: white;
+                padding: 0px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                margin-bottom: 20px;
+            }
+            
+            h2 {
+                color: #007bff;
+                font-weight: 500;
+            }
+            
+            .form-group {
+                margin-bottom: 15px;
+            }
+            
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+            
+            input[type="text"],
+            input[type="email"],
+            select {
+                width: 100%;
+                padding: 10px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+            }
+            
+            button {
+                width: 100%;
+                background-color: #28a745;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            
+            button:hover {
+                background-color: #218838;
+            }
+            
+            .donate-button {
+                display: inline-block;
+                background-color: #ff4500;
+                color: white;
+                padding: 12px 30px;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: center;
+            }
+            
+            .donate-button:hover {
+                background-color: #c03600;
+            }
+            
+            @media (max-width: 650px) {
+                .container {
+                    padding: 5px;
+                }
+            
+                header {
+                    padding: 20px 20px;
+                }
+            }     
+            p{
+              font-weight: 400;
+              font-size: 15px;
+              color:#007bff;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Join Us to Make a Difference</h1>
+            <p>Your support is crucial in our mission to aid those affected by disasters.</p>
+        </header>
+        <section id="volunteer">
+            <center><h2>Become a Volunteer</h2></center>
+            <p>We value every volunteer who joins us. Your dedication makes our mission possible. Please, fill out the form to become part of our team.</p>
+            <form id="volunteer-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="interests">Area of Interest:</label>
+                    <select id="interests" name="interests">
+                        <option value="response">Disaster Response</option>
+                        <option value="medical">Medical Assistance</option>
+                        <option value="logistics">Logistics</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <button type="submit">Join Now</button>
+            </form>
+        </section>
+        <section id="donate">
+            <h2>Support Our Efforts</h2>
+            <p>Your generosity enables us to respond quickly and effectively. Every contribution matters. Click below to donate.</p>
+            <center><a href="#" class="donate-button" >Donate Now</a></center>
+        </section>
+    </div>
+</body>
+</html>
