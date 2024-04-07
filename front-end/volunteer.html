@@ -54,6 +54,18 @@
                 color: #007bff;
                 font-weight: 500;
             }
+            form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
             
             .form-group {
                 margin-bottom: 15px;
@@ -123,21 +135,21 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header style="color: white;">
             <h1>Join Us to Make a Difference</h1>
-            <p>Your support is crucial in our mission to aid those affected by disasters.</p>
+            
         </header>
-        <section id="volunteer">
+        <section id="volunteer" style="padding: 20px;">
             <center><h2>Become a Volunteer</h2></center>
             <p>We value every volunteer who joins us. Your dedication makes our mission possible. Please, fill out the form to become part of our team.</p>
-            <form id="volunteer-form">
+            <form id="volunteer-form" style="width: 520px;">
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name" >Name:</label>
+                    <input style="width: 500px;" type="text" id="name" name="name" required >
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input style="width: 500px;" type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="interests">Area of Interest:</label>
@@ -151,7 +163,7 @@
                 <button type="submit">Join Now</button>
             </form>
         </section>
-        <section id="donate">
+        <section id="donate" style="padding: 20px;">
             <h2>Support Our Efforts</h2>
             <p>Your generosity enables us to respond quickly and effectively. Every contribution matters. Click below to donate.</p>
             <center><a href="#" class="donate-button" >Donate Now</a></center>
