@@ -23,7 +23,7 @@
         <div class="resource-category" style="margin-left: 150px; width: 550px; background-color: #12192c; border-radius: 20px;">
             <h2 class="rs">Response Protocols</h2>
             <ul>
-                <li ><a href="#" >What To Do in an Earthquake</a></li>
+                <li><a href="#">What To Do in an Earthquake</a></li>
                 <li ><a href="#" >Immediate Actions for a Flood</a></li>
                 <li ><a href="#" >Emergency Contact Numbers</a></li>
             </ul>
@@ -51,5 +51,16 @@
         
         <p >© 2024 Disaster Management Resources. All rights reserved.</p>
     </footer>
+    <script>
+           document.getElementById('text').onclick = function(){
+                  var text = this.innerHTML;
+                  if(text == "What To Do in an Earthquake"){
+                    this.innerHTML = "During Earthquake";
+                  }
+                  else{
+                    this.innerHTML = "What To Do in an Earthquake";
+                  }
+           };
+    </script>
 </body>
 </html>
