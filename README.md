@@ -1,3 +1,7 @@
+Presentation link: https://in.docworkspace.com/d/sICLJjcz6AfvByrAG?sa=e1&st=0t
+Pitch link: https://youtu.be/rgfCSJm1I4o
+
+
 1. Homepage:
    1) Conatins a navbar which includes the links to various other webpages of the website namely Resources, Guidelines, Login, Registration form, AboutUs.
    2) Contains a link to a live chat room. This chat room facilitates conversation between all the volunteers, service providers and the victims during a disaster. 
