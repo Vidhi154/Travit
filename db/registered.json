@@ -1,0 +1,34 @@
+{
+    "User 1":{
+        "Full Name":"Radhika Agarwal",
+        "Username":"RadhikaAgarwal60",
+        "Email":"radhikavivoy20g@gmail.com",
+        "Phone Number":"7307154005",
+        "Password":"1283"
+    },
+
+     "User 2":{
+        "Full Name":"Kajal Yadav",
+        "Username":"Kajal75",
+        "Email":"kajalyadav@gmail.com",
+        "Phone Number":"9872644623",
+        "Password":"897322"
+    },
+    
+    "User 3":{
+            "Full Name":"Archana Kumari",
+            "Username":"Roshni91",
+            "Email":"archana@gmail.com",
+            "Phone Number":"7535182902",
+            "Password":"Roshni234"
+    },
+            
+    "User 4":{
+                "Full Name":"Vidhi Yadav",
+                "Username":"Viya98",
+                "Email":"viya12@gmail.com",
+                "Phone Number":"6732893022",
+                "Password":"vidhi154"
+    }       
+
+}
