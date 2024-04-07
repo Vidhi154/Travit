@@ -149,7 +149,8 @@ height:50vh;
 margin:50px auto
 }
 .content{
-    background-color: #12192c;
+    /* background-color: ; */
+    /* background-color: #12192c; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -166,14 +167,15 @@ margin:50px auto
 .content span{
     height: 0.5px;
     width: 80px;
-    background: #777;
+
+    /* background: #777; */
     margin: 30px 0;
 }
 .content p{
     padding-bottom: 15px;
     font-weight: 300;
-    opacity: 0.7;
-    width: 60%;
+    /* opacity: 0.7; */
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     line-height: 1.7;
